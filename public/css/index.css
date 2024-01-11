@@ -1,0 +1,150 @@
+@import url("./res/components.css");
+/* CSS */
+
+.main {
+    height: 70vh;
+    background: linear-gradient(
+            180deg,
+            rgba(53, 33, 83, 0.71) 0%,
+            rgba(56, 30, 30, 0.242) 100%
+        ),
+        url("../Images/school.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-input {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+label {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase !important;
+}
+.main h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.main h2 {
+    color: #ffffff;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.ad {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-enrol-option {
+    position: relative;
+    padding: 1.5rem;
+    color:whitesmoke;
+    background-color: black;
+    border-radius: 15px;
+    border: none;
+}
+.btn-enrol-option:hover{
+    background-color: peru;
+    border: 1px black;
+    color:whitesmoke;
+    border-radius: 25px;
+    border-width: 1px;
+
+
+}
+
+.para1{
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+.para2{
+    
+    width: 40%;
+    height: 400px;
+    position: relative;
+    left:70%;
+}
+.para3{
+    width: 40%;
+    height: 400px;
+    position: relative;
+}
+.button1{
+    position: relative;
+    left: 10px;
+    height: 50px;
+    width: 150px;
+    background: peru;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.button2{
+    height: 50px;
+    width: 90px;
+    background: peru;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.button3{
+    position: relative;
+    left: 10px;
+    height: 50px;
+    width: 90px;
+    background: peru;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.don .don-i{
+    position: relative;
+    left: 60%;
+    bottom: 450px;
+}
+.style1-i {
+    background-image: url("style1.jpg") width="350px" height="350px";
+    position: relative;
+    bottom: 400px;
+    
+}
+.style2-i{
+    position: relative;
+    bottom: 450px;
+    
+}
+.what1-i{
+    position: relative;
+    left: 80%;
+    bottom: 350px;
+}
+.what2-i{
+    position: relative;
+    left:30%;
+    bottom: 350px;
+}
